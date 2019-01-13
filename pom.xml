@@ -104,7 +104,11 @@
           <artifactId>spring-jdbc</artifactId>
           <version>${spring.version}</version>
       </dependency>
-
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-test</artifactId>
+          <version>${spring.version}</version>
+      </dependency>
       <!-- AOP begin -->
       <dependency>
           <groupId>org.aspectj</groupId>
@@ -187,10 +191,17 @@
           <version>2.1</version>
           <classifier>jdk15</classifier>
       </dependency>
+
       <dependency>
           <groupId>org.apache.commons</groupId>
           <artifactId>commons-dbcp2</artifactId>
           <version>2.0</version>
+      </dependency>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.12</version>
+          <scope>compile</scope>
       </dependency>
   </dependencies>
 
